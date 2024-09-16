@@ -1,6 +1,6 @@
-import { ClassValidatorFields } from '../../domain/validators/class_validator_fields'
-import { FieldsErrors } from '../../domain/validators/validator_fields_interface'
-import { EntityValidationError } from '../../domain/validators/validation_error'
+import { ClassValidatorFields } from '../../domain/validators/class.validator.fields'
+import { FieldsErrors } from '../../domain/validators/validator.fields.interface'
+import { EntityValidationError } from '../../domain/validators/validation.error'
 
 type Expected =
   | {
